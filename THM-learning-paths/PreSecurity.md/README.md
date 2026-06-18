@@ -2,8 +2,7 @@
 ### Overview
 The Pre Security path provided a foundational understanding of cybersecurity, covering career paths, networking concepts, web technologies, computer fundamentals, operating systems, software basics, and basic security concepts. It gave me a clearer understanding of the different areas of cybersecurity and confirmed my interest in blue team and SOC-related roles.
 ### Modules covered
-- [Cyber Security Introduction](rexael-cyber-journey/THM-learning-paths/PreSecurity.md/Cyber Security Introduction.md)
-
+- Cyber Security Introduction
 - Networking fundamentals
 - How the Web works
 - Computer Fundamentals
