@@ -22,5 +22,4 @@ This repository documents my learning, projects, notes, and progress as I work t
 - [TryHackMe Pre Security Path Certificate](Certficates/THM-5DRIZD0GOQ.pdf)
 ## Projects
 - Coming Soon
-## Daily Learning Log
-- Coming Soon
+
