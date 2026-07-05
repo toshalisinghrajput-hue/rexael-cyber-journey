@@ -1,0 +1,16 @@
+# Module1 : CyberSecurity Introduction
+In this 1st module, there were 3 rooms, which helped me in understanding the difference between offensive and defensive security thoretically as well as practically learning the difference through lab machines, and various career paths related to both.
+## Room1 : Offensive Security
+- Learned the basics of ethical hacking.
+- Used the dirb command to brute-force/disocver a hidden web page.
+## Room2 : Defensive Security
+- Learned about layers of defence.
+- Defensive measures like firewalls and IDS.
+- SOC and SIEM basics.
+## Room3 : Careers in Cyber
+- Understood various career opportunities and a "typical day" of-
+  - Security Analysts
+  - Security Engineer
+  - Penetration Tester
+  - and new emerging field- AI Security.
+
