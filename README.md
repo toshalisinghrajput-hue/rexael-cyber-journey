@@ -37,7 +37,7 @@ This repository documents my learning, projects, notes, and progress as I work t
    - MySQL
 ## Certifications
 - [TryHackMe Pre Security Path Certificate](Certficates/THM-5DRIZD0GOQ.pdf)
-- [TryHackMe Cyber Security 101 Path Certificate] 
+- [TryHackMe Cyber Security 101 Path Certificate](Certificates/THM-T4RIOIBVKG.pdf)
 ## Projects
 - SecureLoginLab (in progress)
 
