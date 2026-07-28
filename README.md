@@ -33,7 +33,12 @@ This repository documents my learning, projects, notes, and progress as I work t
  ### Programming
    - Python
    - Java
- ### Databases
+ ### Backend 
+   - Java
+   - SpringBoot
+   - JPA
+ ### IDE & Database
+   - IntelliJ IDEA
    - MySQL
 ## Certifications
 - [TryHackMe Pre Security Path Certificate](Certficates/THM-5DRIZD0GOQ.pdf)
