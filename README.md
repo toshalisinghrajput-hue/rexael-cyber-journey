@@ -4,9 +4,11 @@ Rexael's journey into cybersecurity through labs, projects, and continuous learn
 MCA student passionate about cybersecurity, blue teaming, and SOC operations. 
 This repository documents my learning, projects, notes, and progress as I work toward a career in cybersecurity.
 ## Completed Learning Paths (THM)
-✅ Pre Security | 
-✅Cyber Security 101 | 
-⏳ SOC Level 1 (Planned)
+☑ Pre Security | 
+☑ Cyber Security 101 | 
+⏱ SOC Level 1 (In Progress)
+## Linux Journey
+☑ Grasshopper | 👩‍💻 Journeyman (Planned)
 ## Technical Skills 
  ### Cybersecurity
    - Networking Fundamentals
