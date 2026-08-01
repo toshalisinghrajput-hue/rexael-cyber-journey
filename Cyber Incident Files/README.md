@@ -4,3 +4,17 @@ Each case documents what happened and how, what I observed, the step by step pro
 ## Why I keep these Files
 The one of the first real-incident I encountered about having two malware worms in my system and how I responded with chatgpt's divine guidance and my own cybersecurity learning made me realize how much it is required for me to document what I learned from a real-practical exposure to a real cyber incident. 
 Cybersecurity is not only about completing labs and earning certificates. it is also about learning to investigate the unexpected.
+## Case Structure
+Each incident may include:
+- Incident Overview
+- Timeline
+- Initial Observations
+- Indicators of Compromise
+- Investigation
+- Containment and Response
+- Recovery
+- Lessons Learned
+- Remaining Questions
+
+**This is Rexael's growing archive of lessons learned from the field**
+> Note: These are personal learning reports. Sensitive information and personally identifiable information are excluded.
