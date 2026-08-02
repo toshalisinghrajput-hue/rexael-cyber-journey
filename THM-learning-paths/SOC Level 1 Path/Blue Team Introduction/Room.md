@@ -18,3 +18,5 @@ Also, the SOC team is there to guide the juniors and is like a support system wh
 - SOC Engineer: maintains security tools and configures the alerts to make analyst's job easier.
 - SOC Manager: reports SOC results to the top management and makes sure you aren't lost in that big new cyber security world.
 - Incident Responder: is called on demand during major incidents.
+**Task3**
+  Copied IP Address to investigate. [Screenshots/image.png]
