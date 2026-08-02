@@ -1,6 +1,6 @@
-## Module 1
+## Module 1: Blue Team Introduction
 ### Room 1: Junior Security Analyst Intro
-**Junior Security Analyst Intro** introduced me to a new journey: SOC L1 Analyst - from starting work day by quick scrolling through the cyber news for the last week to **Daily Duties:**
+**Junior Security Analyst Intro** introduced me to a new journey: SOC L1 Analyst - from starting work day by quick scrolling through the cyber news for the last week - to **Daily Duties:**
 - Monitor and investigate various security alerts
 - Participate in SOC brainstorms and workshops
 - Cooperate with other teams to keep your company safe
@@ -19,6 +19,9 @@ Also, the SOC team is there to guide the juniors and is like a support system wh
 - SOC Manager: reports SOC results to the top management and makes sure you aren't lost in that big new cyber security world.  
 - Incident Responder: is called on demand during major incidents.
 
-**Task3:**
-- Copied IP Address to investigate. ![](Screenshots/image.png)
-- 
+**Task3:** Basic Investigation and Escalation
+- Copied IP Address to investigate. ![](Screenshots/copyip.png)
+- Checked IP Address in IPHunter. ![](Screenshots/iphunter.png)
+- Escalated to SOC Team Lead. ![](Screenshots/escalate.png)
+- Blocked Malicious IP Address. ![](Screenshots/firewall.png)
+- Got the THM flag.
