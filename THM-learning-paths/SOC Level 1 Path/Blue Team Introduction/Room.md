@@ -16,7 +16,9 @@ along with more **basic daily duties**:
 Also, the SOC team is there to guide the juniors and is like a support system which have **team members** like:
 - Senior Analyst: helps Junior analysts when something is unclear and handles complex cases after I do the initial analysis.
 - SOC Engineer: maintains security tools and configures the alerts to make analyst's job easier.
-- SOC Manager: reports SOC results to the top management and makes sure you aren't lost in that big new cyber security world.
+- SOC Manager: reports SOC results to the top management and makes sure you aren't lost in that big new cyber security world.  
 - Incident Responder: is called on demand during major incidents.
-**Task3**
-  Copied IP Address to investigate. [Screenshots/image.png]
+
+**Task3:**
+- Copied IP Address to investigate. ![](Screenshots/image.png)
+- 
