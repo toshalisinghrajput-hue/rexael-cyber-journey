@@ -11,7 +11,7 @@ The Room covered **Security Hierarchy, Meet the Blue Team, Advancing SOC Career*
     - GRC Team: Specialists managing policies and ensuring compliance with regulations like PCI DSS.
     - Blue Team: Defensive security experts like SOC analysts, engineers, or incident responders.
 
-**Meet the Blue Team**: Depending on a company's size and sector, Blue Team can include a lot of different roles and subdepartments, usually counting 3 to 50 members total. 1[](Screenshots/SOC)
+**Meet the Blue Team**: Depending on a company's size and sector, Blue Team can include a lot of different roles and subdepartments, usually counting 3 to 50 members total. 1[](Screenshots/SOC.png)
 SOC is the central hub for an organization's cyber security - they are the first line of defense, work with various alerts, and handle most attacks. An efficient SOC is usually composed of the following roles:
 - L1 Analysts: Junior members who triage alerts and pass complex cases to L2
 - L2 Analysts: Experienced members who investigate more advanced attacks
