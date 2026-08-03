@@ -31,7 +31,13 @@ Few CIRT examples:
 - Digital Forensics Analyst: Uncover hidden threats in disk and memory
 - Threat Intelligence Analyst: Gather data about emerging threat groups
 - AppSec Engineer: Maintain a secure software development lifecycle
-- AI Researcher: Study AI threats and how to defend against them
+- AI Researcher: Study AI threats and how to defend against them  
+
+**Internal SOC vs MSSP:** Not every organization has the expertise to operate a SOC on its own and relies on a Managed Security Services Provider (MSSP), a company that delivers outsourced security services, most commonly SOC, to its clients. Working at MSSP is typically high-pressure, but it is also a good option to quickstart your career. The differences: ![](Screenshots/SOC-MSSP.png)  
+
+### Key Takeaways
+Understood the various members working as Blue/SOC Team, their work, responsibilities and how Junior SOC L1 Analyst can choose any of the career, they find more interesting while working and thus, keep exploring other fields/roles in cybersecurity.
+
 
 
 
