@@ -1,7 +1,7 @@
 ### Room3: Human As Attack Vectors
 ### What I learned about
    - The role of the human element in cyber security
-       - Humans are vulnerable to attackers because they can provide their personal and confidential information or access to mailboxes, websites etc to the attacker themselves without even realizing what they did and thus, humans are considered the weakest link in the cybersecurity.  
+       - Humans are vulnerable to attackers because they can provide their personal and confidential information or access to mailboxes, websites etc to the attacker themselves without even realizing what they did and thus, humans are considered the weakest link in the cybersecurity.   
        - Some threat actors hunt for a specific access, while others are not so selective and just breach as many accounts as they can and decide how to use them later.  
        - The tactic, known as social engineering, is designed to be trustworthy and emotional (triggering feelings like urgency, fear, or curiosity), thus manipulating the victim into helping the attacker, whether knowingly or not.  
        - Common attacks are phishing emails, malware (threat actors use innovative techniques like fake CAPTCHAs, malicious QR codes, and SEO poisoning), impersonation- with or without AI/deepfakes, USB drop campaigns, physical attacks, insider threats, and even fake job offers.  
