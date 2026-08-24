@@ -45,7 +45,7 @@
   - Alert Management Platforms like SIEM, EDR, SOAR, ITSM 
   - Alert Properties like time, name, severity, status, verdict etc.
   - Prioritization of alerts- critical, high, medium, low.
-  - Deetrmination of true/false alser positives with practice on THM lab. 
+  - Determination of true/false alert positives with practice on THM lab. 
 
 
 
