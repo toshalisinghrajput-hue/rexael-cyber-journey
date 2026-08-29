@@ -37,7 +37,40 @@
 
        > ELK stands for Elasticsearch, Logstash, and Kibana. These are three open-source tools that are commonly used together to collect, store, analyse, and visualise data. 
     - Port-Forwarding: SIEM solutions can also be configured to listen on a certain port, and then the endpoints forward the data to the SIEM instance on the listening port.
-- 
+- SIEM solution has detection rules that catch threats. These rules play an important role in the timely detection of threats, allowing analysts to take action on time. Detection rules are pretty much logical expressions set to be triggered.
+- Once an alert is triggered, the events/flows associated with the alert are examined, and the rule is checked to see which conditions are met. Based on the investigation, the analyst determines if it's a True or False positive. Some of the actions that are performed after the analysis are:
+   - Alert is a False Positive. It may require tuning the rule to avoid similar False positives from occurring again.
+   - Alert is a True Positive. Perform further investigation.
+   - Contact the asset owner to inquire about the activity.
+   - Suspicious activity is confirmed. Isolate the infected host.
+   - Block the suspicious IP.
+- Practice: A suspicious activity happened, an Alert is triggered, which means some events matched the condition of some rule already configured. Investigated the alert and answered the questions asked in the task.
+
+    ![](Screenshots/Room2-1.png)
+   - After clicking on the Start Suspicious Activity button, which process caused the alert?
+      ![](Screenshots/Room2-2.png)
+   - Find the event that caused the alert and identify the user responsible for the process execution.
+     ![](Screenshots/Room2-3.png)
+   - What is the hostname of the suspect user?
+     - HR_02
+   - Examine the rule and the suspicious process; which term matched the rule that caused the alert?
+     ![](Screenshots/Room2-4.png)
+   - Which option best represents the event? Choose from the following: False Positive/True Positive
+     ![](Screenshots/Room2-5.png)
+### Key Learning
+- Learned various Log Sources- Windows, Linux, Server and and Logs Ingestion into SIEM.
+- The importance and features of a SIEM solution.
+- Understand the process behind alerting and alert analysis.
+- Further rooms recommended by THM-
+  - Junior Security Analyst Intro
+  - Splunk: The Basics
+  - Incident Handling with Splunk
+  - Benign
+  - Investigating with Splunk
+  - Investgating with ELK
+  - ItsyBitsy
+
+
       
 
       
