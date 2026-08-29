@@ -32,28 +32,58 @@ Note: Some modern AVs may have more enhanced visibility and detection. However, 
 - Advanced detection techniques and the response mechanisms of an EDR.
   - Detection: Based on the telemetry received from the endpoints, some advanced detection techniques are applied to this data. Some of these techniques include:
     - Behavioral Detection
-      - Instead of just matching the signatures with known threats, it observes the complete behavior of a file. Advanced threats craft their malware to look clean and use legitimate processes to carry out their attack. EDR catches this behavior.
+      - Advanced threats craft their malware to look clean and use legitimate processes to carry out their attack. EDR catches this behavior.
         - Example: A process winword.exe spawning PowerShell.exe will be flagged by the EDR due to the behavior. A Word document spawning a PowerShell is an unusual parent-child relationship.
     - Anomaly Detection
-      - With time, EDR understands the baseline behavior of the endpoints. Any activity that deviates from this behavior will be flagged. During any malicious activity, the endpoint's behavior deviates from normal. EDR picks it up. Sometimes, this can generate false positives as well. However, with the full context it gives, the analyst can identify its legitimacy.
+      - With time, EDR understands the baseline behavior of the endpoints. Any activity that deviates from this behavior will be flagged. Sometimes, this can generate false positives as well. However, with the full context it gives, the analyst can identify its legitimacy.
         - Example: On one of the endpoints, a process modifies an auto-start registry key, which is not a common behavior on the endpoint.
     - IOC matching
-      - EDRs have some strong threat intelligence field integrations. Except for zero-day attacks, most of the attacks have indicators published in the threat intelligence feeds. EDR flags any activity that matches any known IOC.  Example: A user downloads a file that drops an executable. The executable is often used in a specific attack. The hash of this executable will get matched with the threat intelligence feed and instantly flagged by the EDR.
+      - Except for zero-day attacks, most of the attacks have indicators published in the threat intelligence feeds. EDR flags any activity that matches any known IOC. 
+        - Example: A user downloads a file that drops an executable. The executable is often used in a specific attack. The hash of this executable will get matched with the threat intelligence feed and instantly flagged by the EDR.
     - MITRE ATT&CK Mapping
         - Any activity flagged by the EDR is not only marked as malicious or suspicious but also mapped with the MITRE Tactic and Technique (attack stage) that the particular activity was on. This proves to be very helpful for the analysts.
           - Example: If the EDR flags the creation of a scheduled task for any reason, it will likely map this activity to the following:
             - Tactic: Persistence
             - Technique: Scheduled Task/Job
     - Machine Learning Algorithms
-      - Advanced threat actors try to evade defenses as much as possible, and their activities may sometimes bypass advanced detection techniques. Modern EDRs have machine learning models trained by a large dataset of normal and malicious behaviors. This can detect complex patterns of an attack.
+      - Modern EDRs have machine learning models trained by a large dataset of normal and malicious behaviors. This can detect complex patterns of an attack.
         - Example: Attacks in which the individual actions are not inherently malicious, but the ML algorithm identifies the whole chain of activities as malicious. Fileless attacks and multi-staged intrusions are often detected through this. 
 - Response: EDR offers both automated and manual responses. You can make policies to block known malicious behaviors automatically. However, manual response gives you a wide range of response capabilities. 
-  - Isolate Host: During any malicious activity on an endpoint, you can isolate that endpoint from the network through EDR. This is a very effective function for containing malicious activity. Most attacks start from a single endpoint and move laterally to other endpoints to compromise the whole network. Isolating the infected endpoint on time can stop this from happening.
-  - Terminate Process: Not every malicious activity requires host isolation. Some hosts run the core business operations, and isolating them can cause more loss than the malicious activity. In such cases, terminating a process is enough to neutralize the malicious activity. The analysts get this option in the EDR. They can terminate any process at any time. This action should be taken consciously since terminating a legitimate process can disrupt the endpoint.
-  - Quarantine: If a malicious file comes into the endpoint, it can be quarantined. Quarantine ensures that the file is moved to an isolated location where it can not be executed. The analysts can then review the file to restore or permanently remove it. 
+  - Isolate Host: Most attacks start from a single endpoint and move laterally to other endpoints to compromise the whole network. Isolating the infected endpoint on time can stop this from happening.
+  - Terminate Process: Some hosts run the core business operations, and isolating them can cause more loss than the malicious activity. The analysts get the option to terminate a process in the EDR. They can terminate any process at any time. This action should be taken consciously since terminating a legitimate process can disrupt the endpoint.
+  - Quarantine: Quarantine ensures that the file is moved to an isolated location where it can not be executed. The analysts can then review the file to restore or permanently remove it. 
   - Remote Access: Analysts can also remotely access the shell of any endpoint. This is often done when the EDR's built-in response is not enough to take action on a specific activity. Through remote access, analysts can gain deeper visibility into the system or take custom actions within the endpoints. The analysts can also run scripts or collect their desired data from the host through remote access.
-  - Artefacts Collection:  Analysts can extract important artefacts from the endpoints without physically accessing the device. The most commonly extracted artefacts include:
+  - Artefacts Collection: Analysts can extract important artefacts from the endpoints without physically accessing the device. The most commonly extracted artefacts include:
     - Memory Dump
     - Event Logs
     - Specific Folder Contents
     - Registry Hives
+- Practice:  The task is to answer questions based on the information/visibility provided by the EDR Console
+
+![](Screenshots/Room1-7.png)  
+
+  ![](Screenshots/Room1-1.png)  
+
+  - Opened the first high alert to see details:  
+    ![](Screenshots/Room1-2.png)
+  
+  - Go to Process info (CMD.exe) to see if which tool was launched by CMD.exe to download the payload on DESKTOP-HR01
+    ![](Screenshots/Room1-3.png)
+
+  - Switch to INSTALL.EXE to get the absolute path to the downloaded malware on the DESKTOP-HR01 machine
+    ![](Screenshots/Room1-4.png)
+  
+  - Absolute path to the suspicious syncsvc.exe on the WIN-ENG-LAPTOP03 machine
+    ![](Screenshots/Room1-5.png)
+
+  - UpdateAgent.exe labelled by Threat Intel on DESKTOP-DEV01
+    ![](Screenshots/Room1-6.png)
+
+### Key Takeaways
+- The basics of EDR and how it works
+- Differentiate EDR from traditional Antivirus solutions
+- Architecture of an EDR solution
+- Telemetry it collects from endpoints
+- Understood the detection and response capabilities of an EDR
+- Use of EDR Agents and Console
+- Practiced investigating some detections on a simulated EDR
