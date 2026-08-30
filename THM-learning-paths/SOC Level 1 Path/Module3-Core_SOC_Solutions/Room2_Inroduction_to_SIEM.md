@@ -47,16 +47,26 @@
 - Practice: A suspicious activity happened, an Alert is triggered, which means some events matched the condition of some rule already configured. Investigated the alert and answered the questions asked in the task.
 
     ![](Screenshots/Room2-1.png)
+    
    - After clicking on the Start Suspicious Activity button, which process caused the alert?
+
       ![](Screenshots/Room2-2.png)
+
    - Find the event that caused the alert and identify the user responsible for the process execution.
+
      ![](Screenshots/Room2-3.png)
+
    - What is the hostname of the suspect user?
      - HR_02
+
    - Examine the rule and the suspicious process; which term matched the rule that caused the alert?
+
      ![](Screenshots/Room2-4.png)
+
    - Which option best represents the event? Choose from the following: False Positive/True Positive
+
      ![](Screenshots/Room2-5.png)
+
 ### Key Learning
 - Learned various Log Sources- Windows, Linux, Server and and Logs Ingestion into SIEM.
 - The importance and features of a SIEM solution.

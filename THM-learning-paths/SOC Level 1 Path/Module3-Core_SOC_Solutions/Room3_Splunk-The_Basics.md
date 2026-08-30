@@ -15,27 +15,45 @@
     - Search Head: The searches are done using the SPL (Search Processing Language), a powerful query language for searching indexed data. When the user performs a search, the request is sent to the indexer, and the relevant events are returned as field-value pairs.  
     The Search Head also allows you to transform results into presentable tables and visualizations such as pie, bar, and column charts.  
 - Splunk dashboard: Explored the Splunk dashboard
+
     ![](Screenshots/Room3-1.png)
 - Practical-
     - After clicking on Add Data: 
-    ![](Screenshots/Room3-2.png)
+
+        ![](Screenshots/Room3-2.png)
     - After clicking on Upload, select the file, then next: 
-    ![](Screenshots/Room3-3.png)
+
+       ![](Screenshots/Room3-3.png)
+
     - Set source type to json, then next.
+
     - In Input Settings, write "VPN_Connections" in Host Field Name and create a new index "VPN_logs", save it, and select this newly created index, then Review and then Submit.
-    ![](Screenshots/Room3-4.png)
-    - Click on Start Searching and answered the questions
-    ![](Screenshots/Room3-5.png)
+
+        ![](Screenshots/Room3-4.png)
+
+    - Click on Start Searching and answered the questions.
+    
+        ![](Screenshots/Room3-5.png)
+
     - How many events are present in the log file?  2862
-    ![](Screenshots/Room3-6.png)
+
+        ![](Screenshots/Room3-6.png)
+
     - How many log events are captured by the user Maleena?  60
-    ![](Screenshots/Room3-7.png)
-    - What is the username associated with IP 107.14.182.38?  smith
-    ![](Screenshots/Room3-8.png)
+
+        ![](Screenshots/Room3-7.png)
+
+    - What is the username associated with IP 107.14.182.38?  
+    
+        ![](Screenshots/Room3-8.png)
+
     - What is the number of events that originated from all countries except France?  2814
-    ![](Screenshots/Room3-9.png)
-    - How many VPN events were associated with the IP 107.3.206.58?  14
-    ![](Screenshots/Room3-10.png)
+
+        ![](Screenshots/Room3-9.png)
+
+    - How many VPN events were associated with the IP 107.3.206.58?  
+    
+        ![](Screenshots/Room3-10.png)
 ### Key Learning
 - Learned importance of Splunk Components
 - Navigated and explored splunk dashboard

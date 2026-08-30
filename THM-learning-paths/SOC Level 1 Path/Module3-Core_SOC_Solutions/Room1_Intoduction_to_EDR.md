@@ -64,19 +64,24 @@ Note: Some modern AVs may have more enhanced visibility and detection. However, 
 
   ![](Screenshots/Room1-1.png)  
 
-  - Opened the first high alert to see details:  
+  - Opened the first high alert to see details: 
+
     ![](Screenshots/Room1-2.png)
   
   - Go to Process info (CMD.exe) to see if which tool was launched by CMD.exe to download the payload on DESKTOP-HR01
+
     ![](Screenshots/Room1-3.png)
 
   - Switch to INSTALL.EXE to get the absolute path to the downloaded malware on the DESKTOP-HR01 machine
+
     ![](Screenshots/Room1-4.png)
   
   - Absolute path to the suspicious syncsvc.exe on the WIN-ENG-LAPTOP03 machine
+
     ![](Screenshots/Room1-5.png)
 
   - UpdateAgent.exe labelled by Threat Intel on DESKTOP-DEV01
+  
     ![](Screenshots/Room1-6.png)
 
 ### Key Takeaways
