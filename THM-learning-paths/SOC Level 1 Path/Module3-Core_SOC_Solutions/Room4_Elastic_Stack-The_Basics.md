@@ -26,20 +26,23 @@ Over time, its features made it popular in security operations as well. Now, man
     ![](Screenshots/Room4-4.png)
 - Click on Discover and set the kibana time picker: 31st December 2021 to 2nd Feb 2022 (to answer the questions-instructed by THM) and Submit and then the dashboard with chart and logs appears.
    - Select the index vpn_connections and filter from 31st December 2021 to 2nd Feb 2022. How many hits are returned?  2861
-   ![](Screenshots/Room4-5.png)
+        ![](Screenshots/Room4-5.png)
+     
    - Which IP address has the maximum number of connections?
-   ![](Screenshots/Room4-6.png)
+        ![](Screenshots/Room4-6.png)
+        
    - Which user is responsible for the overall maximum traffic?
-   ![](Screenshots/Room4-7.png)
+         ![](Screenshots/Room4-7.png)
+     
    - Apply Filter on UserName Emanda; which SourceIP has max hits?
-   ![](Screenshots/Room4-8.png)
-   ![](Screenshots/Room4-9.png)
+         ![](Screenshots/Room4-8.png)  
+         ![](Screenshots/Room4-9.png)
    - On 11th Jan, which IP caused the spike observed in the time chart?
-    ![](Screenshots/Room4-11.png)
+          ![](Screenshots/Room4-11.png)
    - How many connections were observed from IP 238.163.231.224, excluding the New York state?
-   ![](Screenshots/Room4-10.png)
+          ![](Screenshots/Room4-10.png)
    - Create a table with the fields IP, UserName, Source_Country and save.
-   ![](Screenshots/Room4-12.png)
+          ![](Screenshots/Room4-12.png)
 - KQL Query- KQL (Kibana Query Language) is a search query language used to search the ingested logs/documents in Elasticsearch. With KQL, we can search for the logs in two different ways.
    - Free text search: A simple search of the term 'security' will return all the documents that contain this term, irrespective of the field.KQL looks for the whole term/word in the documents. KQL allows the wildcard * to match parts of the word. Besides that, logical operators- AND, OR, NOT are also used.
    - Field-based search: This search has a special syntax as Field: Value. It uses a colon as a separator between the field and the value.
