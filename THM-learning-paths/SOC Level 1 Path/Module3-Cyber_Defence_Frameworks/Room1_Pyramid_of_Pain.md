@@ -2,7 +2,9 @@
 ## Room 1: Pyramid of Pain
 ### What I learned about:
 - Pyramid of pain is a cybersecurity model created by David J. Bianco in 2013 that shows how much "pain" or operational difficulty an attacker experiences when defenders block or detect specific IOCs (Indicators of Compromise).  
-The model is shaped like a pyramid. The bottom layers are easy for defenders to block but cause very little pain or extra work for the attacker. The top players are harder for defenders to detect but cause massive pain and force attackers to completely redesign their methods when caught.
+The model is shaped like a pyramid. The bottom layers are easy for defenders to block but cause very little pain or extra work for the attacker. The top players are harder for defenders to detect but cause massive pain and force attackers to completely redesign their methods when caught. 
+
+![](Screenshots/Room1-1.png)
 - The layer of the Pyramid (Bottom to Top)  
 
     - Hash Values (Trivial): A hash is not considered to be cryptographically secure if two files have the same hash value or digest. Security professionals usually use the hash values to gain insight into a specific malware sample, a malicious or a suspicious file, and as a way to uniquely identify and reference the malicious artifact.  
@@ -61,7 +63,9 @@ The model is shaped like a pyramid. The bottom layers are easy for defenders to 
 
 ### Key Learning
    - Understood the importance of Pyramid of pain and the levels of difficulty for the attacker increasing as we go up the pyramid of pain.
-   - Various levels and how they affects the attacker's tactics.
-   - ![](Screenshots/Room1-1.png)
+   - Various levels and how they affects the attacker's tactics.  
+
+   ![](Screenshots/Room1-1.png)
+
 
        
