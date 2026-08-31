@@ -81,8 +81,10 @@ Attack Phases-
         - Deleting the backups and shadow copies. Shadow Copy is a Microsoft technology that can create backup copies, snapshots of computer files, or volumes. 
         - Overwrite or corrupt data.
 
-- Practical: 
+- Practical:  
+
     ![](Screenshots/Room2-1.png)
+    
 
 ### Key Learnings
 - Understood Cyber Kill Chain and it's importance for SOC analyst, threat hunters etc.
