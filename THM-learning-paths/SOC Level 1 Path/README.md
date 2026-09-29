@@ -3,9 +3,9 @@
 At present, understanding the fundamentals and basic tools used by a SOC Analyst L1. Started learning from this path recently and will document the rooms and tasks and learning outcomes as i progress through this path.
 ### Modules Covered
    - [Blue Team Introduction](Module1-Blue_Team_Introduction)
-   - SOC Team Internals
-   - Core SOC Solutions
-   - Cyber Defence Frameworks
+   - [SOC Team Internals](Module2-SOC_Team_Internals)
+   - [Core SOC Solutions](Module3-Core_SOC_Solutions)
+   - [Cyber Defence Frameworks](Module4-Cyber_Defence_Frameworks)
    - Phishing Analysis
    - Network Traffic Analysis
    - Network Security Monitoring
