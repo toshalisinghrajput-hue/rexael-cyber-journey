@@ -46,5 +46,7 @@ This repository documents my learning, projects, notes, and progress as I work t
 - [TryHackMe Pre Security Path Certificate](Certficates/THM-5DRIZD0GOQ.pdf)
 - [TryHackMe Cyber Security 101 Path Certificate](Certficates/THM-T4RIOIBVKG.pdf)
 ## Projects
-- PersonalLab (in progress)
+- PersonalLab
+- SQLiDemo
+- Windows Log Analyzer
 
