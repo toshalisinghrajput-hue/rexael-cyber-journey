@@ -6,7 +6,7 @@ This repository documents my learning, projects, notes, and progress as I work t
 ## Completed Learning Paths (THM)
 ☑ Pre Security | 
 ☑ Cyber Security 101 | 
-☑ SOC Level 1 (In Progress)
+☑ SOC Level 1 
 ## Linux Journey
 ☑ Grasshopper | 👩‍💻 Journeyman (Planned)
 ## Technical Skills 
