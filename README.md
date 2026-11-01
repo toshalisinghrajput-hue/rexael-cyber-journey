@@ -6,7 +6,7 @@ This repository documents my learning, projects, notes, and progress as I work t
 ## Completed Learning Paths (THM)
 ☑ Pre Security | 
 ☑ Cyber Security 101 | 
-⏱ SOC Level 1 (In Progress)
+☑ SOC Level 1 (In Progress)
 ## Linux Journey
 ☑ Grasshopper | 👩‍💻 Journeyman (Planned)
 ## Technical Skills 
@@ -45,6 +45,7 @@ This repository documents my learning, projects, notes, and progress as I work t
 ## Certifications
 - [TryHackMe Pre Security Path Certificate](Certficates/THM-5DRIZD0GOQ.pdf)
 - [TryHackMe Cyber Security 101 Path Certificate](Certficates/THM-T4RIOIBVKG.pdf)
+- [TryHackMe SOC_L1_Path Certificate](Certficates/THM-0H9F3JRTTT.pdf)
 ## Projects
 - PersonalLab
 - SQLiDemo
