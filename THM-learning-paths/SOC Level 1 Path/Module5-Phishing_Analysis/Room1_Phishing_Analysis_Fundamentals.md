@@ -20,7 +20,6 @@
     > Using POP3, a recipient cannot access their emails again from a different device because they are stored locally and then deleted from the email server.  
 
 - An email consists of two main parts:
-
     - Email header: Contains metadata about the message, such as sender and the servers involved in delivery
     - Email body: Contains the actual message content, which may be plain text or HTML
 
