@@ -12,8 +12,19 @@ Investigation Report as part of SOC project involving - Phishing Detection + SIE
 ## Lab Environment & Tools  
 - TryHackMe SOC Simulator
 - SIEM platform: Splunk
-- VirusTotal
+- Threat Intelligence: VirusTotal
 
-## 
+## Some snapshots as achivements from the result of the scenario:  
+
+   - 100% True-positive and False-positive rate in the sceanrio.
+        ![](Evidence/Evidence-1.png)  
+
+        ![](Evidence/Evidence-3.png)  
+
+   - AI analysis of the reports and the investigation done by me. I will do my best to overcome these shortcomings of mine.
+
+        ![](Evidence/Evidence-2.png)
+
+
 
  
