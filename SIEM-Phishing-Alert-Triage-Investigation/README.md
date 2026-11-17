@@ -26,7 +26,7 @@ Investigation Report as part of SOC project involving - Phishing Detection + SIE
         ![](Evidence/Evidence-2.png)
 
 ## For detailed investigation report- 
-![](Evidence/Phishing%20project%20report.pdf)
+![Investigation-pdf](Evidence/Phishing%20project%20report.pdf)
 
 
  
